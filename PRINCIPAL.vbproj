@@ -194,6 +194,12 @@
     </Compile>
     <Compile Include="MUDULOS\U_PASS.vb" />
     <Compile Include="MUDULOS\VARIABLE.vb" />
+    <Compile Include="FORMULARIOS\PRUEBA.Designer.vb">
+      <DependentUpon>PRUEBA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULARIOS\PRUEBA.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FORMULARIOS\CREAR_USUARIO2.resx">
