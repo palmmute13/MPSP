@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="logdbDataSet1" targetNamespace="http://tempuri.org/logdbDataSet11.xsd" xmlns:mstns="http://tempuri.org/logdbDataSet11.xsd" xmlns="http://tempuri.org/logdbDataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="logdbConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="logdbConnectionString2 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PRINCIPAL.My.MySettings.GlobalReference.Default.logdbConnectionString2" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="logtableTableAdapter" GeneratorDataComponentClassName="logtableTableAdapter" Name="logtable" UserDataComponentName="logtableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="logdbConnectionString2 (MySettings)" DbObjectName="logdb.logtable" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_usuario, cd_usuario, nombres, apellidos, telefono, email, usuario, contrasena, estado, fecha_ingreso FROM logtable</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vendedoresTableAdapter" GeneratorDataComponentClassName="vendedoresTableAdapter" Name="vendedores" UserDataComponentName="vendedoresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="logdbConnectionString2 (MySettings)" DbObjectName="logdb.vendedores" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, vendedor, contrasena FROM vendedores</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="logdbDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="logdbDataSet1" msprop:Generator_UserDSName="logdbDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="logtable" msprop:Generator_TableClassName="logtableDataTable" msprop:Generator_TableVarName="tablelogtable" msprop:Generator_TablePropName="logtable" msprop:Generator_RowDeletingName="logtableRowDeleting" msprop:Generator_RowChangingName="logtableRowChanging" msprop:Generator_RowEvHandlerName="logtableRowChangeEventHandler" msprop:Generator_RowDeletedName="logtableRowDeleted" msprop:Generator_UserTableName="logtable" msprop:Generator_RowChangedName="logtableRowChanged" msprop:Generator_RowEvArgName="logtableRowChangeEvent" msprop:Generator_RowClassName="logtableRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vendedores" msprop:Generator_TableClassName="vendedoresDataTable" msprop:Generator_TableVarName="tablevendedores" msprop:Generator_TablePropName="vendedores" msprop:Generator_RowDeletingName="vendedoresRowDeleting" msprop:Generator_RowChangingName="vendedoresRowChanging" msprop:Generator_RowEvHandlerName="vendedoresRowChangeEventHandler" msprop:Generator_RowDeletedName="vendedoresRowDeleted" msprop:Generator_UserTableName="vendedores" msprop:Generator_RowChangedName="vendedoresRowChanged" msprop:Generator_RowEvArgName="vendedoresRowChangeEvent" msprop:Generator_RowClassName="vendedoresRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
