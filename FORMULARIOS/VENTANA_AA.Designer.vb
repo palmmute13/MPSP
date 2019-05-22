@@ -43,6 +43,12 @@ Partial Class VENTANA_AA
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.lblCeloAlto = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.lblCelocias = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
         Me.lblSalidaAlto = New System.Windows.Forms.Label()
         Me.lbSalidaAncho = New System.Windows.Forms.Label()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -123,12 +129,6 @@ Partial Class VENTANA_AA
         Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.lblCelocias = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.lblCeloAlto = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -347,6 +347,72 @@ Partial Class VENTANA_AA
         Me.GroupBox2.TabIndex = 11
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "CONSTRUCCION"
+        '
+        'lblCeloAlto
+        '
+        Me.lblCeloAlto.AutoSize = True
+        Me.lblCeloAlto.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCeloAlto.Location = New System.Drawing.Point(284, 169)
+        Me.lblCeloAlto.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
+        Me.lblCeloAlto.Name = "lblCeloAlto"
+        Me.lblCeloAlto.Size = New System.Drawing.Size(12, 13)
+        Me.lblCeloAlto.TabIndex = 29
+        Me.lblCeloAlto.Text = "s"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(231, 170)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(40, 13)
+        Me.Label28.TabIndex = 28
+        Me.Label28.Text = "CelAlto"
+        '
+        'lblCelocias
+        '
+        Me.lblCelocias.AutoSize = True
+        Me.lblCelocias.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCelocias.Location = New System.Drawing.Point(284, 152)
+        Me.lblCelocias.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
+        Me.lblCelocias.Name = "lblCelocias"
+        Me.lblCelocias.Size = New System.Drawing.Size(12, 13)
+        Me.lblCelocias.TabIndex = 27
+        Me.lblCelocias.Text = "s"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(224, 151)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(47, 13)
+        Me.Label27.TabIndex = 26
+        Me.Label27.Text = "Celocias"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(246, 132)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(25, 13)
+        Me.Label26.TabIndex = 25
+        Me.Label26.Text = "Alto"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(233, 113)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(38, 13)
+        Me.Label25.TabIndex = 24
+        Me.Label25.Text = "Ancho"
         '
         'lblSalidaAlto
         '
@@ -1101,72 +1167,6 @@ Partial Class VENTANA_AA
         '
         Me.Column11.HeaderText = "MATERIAL"
         Me.Column11.Name = "Column11"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(233, 113)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(38, 13)
-        Me.Label25.TabIndex = 24
-        Me.Label25.Text = "Ancho"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(246, 132)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(25, 13)
-        Me.Label26.TabIndex = 25
-        Me.Label26.Text = "Alto"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(224, 151)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(47, 13)
-        Me.Label27.TabIndex = 26
-        Me.Label27.Text = "Celocias"
-        '
-        'lblCelocias
-        '
-        Me.lblCelocias.AutoSize = True
-        Me.lblCelocias.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCelocias.Location = New System.Drawing.Point(284, 152)
-        Me.lblCelocias.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
-        Me.lblCelocias.Name = "lblCelocias"
-        Me.lblCelocias.Size = New System.Drawing.Size(12, 13)
-        Me.lblCelocias.TabIndex = 27
-        Me.lblCelocias.Text = "s"
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(231, 170)
-        Me.Label28.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(40, 13)
-        Me.Label28.TabIndex = 28
-        Me.Label28.Text = "CelAlto"
-        '
-        'lblCeloAlto
-        '
-        Me.lblCeloAlto.AutoSize = True
-        Me.lblCeloAlto.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCeloAlto.Location = New System.Drawing.Point(284, 169)
-        Me.lblCeloAlto.Margin = New System.Windows.Forms.Padding(10, 5, 3, 20)
-        Me.lblCeloAlto.Name = "lblCeloAlto"
-        Me.lblCeloAlto.Size = New System.Drawing.Size(12, 13)
-        Me.lblCeloAlto.TabIndex = 29
-        Me.lblCeloAlto.Text = "s"
         '
         'VENTANA_AA
         '

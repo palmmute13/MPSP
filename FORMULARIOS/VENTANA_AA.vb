@@ -2755,25 +2755,346 @@
 
 
 
+        If TxbAncho.Text = 164 And CbxAncho.Text = "0" Or TxbAncho.Text = 164 And CbxAncho.Text = "1/16" Then
+
+
+            AumentoCincoDivicion = "1/4"
+
+        ElseIf TxbAncho.Text = 164 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 164 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 164 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 164 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 164 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 164 And CbxAncho.Text = "7/16" Then
+
+            AumentoCincoDivicion = "5/16"
+
+        ElseIf TxbAncho.Text = 164 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 164 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 164 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 164 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 164 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 164 And CbxAncho.Text = "13/16" Then
+
+            AumentoCincoDivicion = "3/8"
+
+
+        ElseIf TxbAncho.Text = 164 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 164 And CbxAncho.Text = "15/16" Then
+
+
+            AumentoCincoDivicion = "7/16"
+
+        End If
+
+
+        If TxbAncho.Text = 165 And CbxAncho.Text = "0" Or TxbAncho.Text = 165 And CbxAncho.Text = "1/16" Or
+               TxbAncho.Text = 165 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 165 And CbxAncho.Text = "3/16" Then
+
+            AumentoCincoDivicion = "7/16"
+
+        ElseIf TxbAncho.Text = 165 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 165 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 165 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 165 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 165 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 165 And CbxAncho.Text = "9/16" Then
+
+            AumentoCincoDivicion = "1/2"
+
+
+        ElseIf TxbAncho.Text = 165 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 165 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 165 And CbxAncho.Text = "11/16" Or TxbAncho.Text = 165 And CbxAncho.Text = "3/4" Or
+               TxbAncho.Text = 165 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 165 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "9/16"
+
+        End If
+
+        If TxbAncho.Text = 166 And CbxAncho.Text = "0" Or TxbAncho.Text = 166 And CbxAncho.Text = "1/16" Or
+               TxbAncho.Text = 166 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 166 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 166 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 166 And CbxAncho.Text = "5/16" Then
+
+            AumentoCincoDivicion = "5/8"
+
+        ElseIf TxbAncho.Text = 166 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 166 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 166 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 166 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 166 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 166 And CbxAncho.Text = "11/16" Then
+
+            AumentoCincoDivicion = "11/16"
+
+
+        ElseIf TxbAncho.Text = 166 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 166 And CbxAncho.Text = "13/16" Or
+               TxbAncho.Text = 166 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 166 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "3/4"
+
+        End If
+
+        If TxbAncho.Text = 167 And CbxAncho.Text = "0" Or TxbAncho.Text = 167 And CbxAncho.Text = "1/16" Then
+
+            AumentoCincoDivicion = "3/4"
+
+        ElseIf TxbAncho.Text = 167 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 167 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 167 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 167 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 167 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 167 And CbxAncho.Text = "7/16" Then
+
+            AumentoCincoDivicion = "13/16"
+
+
+        ElseIf TxbAncho.Text = 167 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 167 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 167 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 167 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 167 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 167 And CbxAncho.Text = "13/16" Then
+
+            AumentoCincoDivicion = "7/8"
+
+        ElseIf TxbAncho.Text = 167 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 167 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "15/16"
+
+
+        End If
+
+
+        If TxbAncho.Text = 168 And CbxAncho.Text = "0" Or TxbAncho.Text = 168 And CbxAncho.Text = "1/16" Or
+           TxbAncho.Text = 168 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 168 And CbxAncho.Text = "3/16" Then
+
+            AumentoCincoDivicion = "5/16"
+
+        ElseIf TxbAncho.Text = 168 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 168 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 168 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 168 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 168 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 168 And CbxAncho.Text = "9/16" Then
+
+            AumentoCincoDivicion = ""
+
+
+        ElseIf TxbAncho.Text = 168 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 168 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 168 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 168 And CbxAncho.Text = "13/16" Or
+               TxbAncho.Text = 168 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 168 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "1/16"
 
 
 
 
+        End If
+
+
+        If TxbAncho.Text = 170 And CbxAncho.Text = "0" Or TxbAncho.Text = 170 And CbxAncho.Text = "1/16" Then
+
+
+            AumentoCincoDivicion = "1/4"
+
+        ElseIf TxbAncho.Text = 170 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 170 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 170 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 170 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 170 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 170 And CbxAncho.Text = "7/16" Then
+
+            AumentoCincoDivicion = "5/16"
+
+        ElseIf TxbAncho.Text = 170 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 170 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 170 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 170 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 170 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 170 And CbxAncho.Text = "13/16" Then
+
+            AumentoCincoDivicion = "3/8"
+
+
+        ElseIf TxbAncho.Text = 170 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 170 And CbxAncho.Text = "15/16" Then
+
+
+            AumentoCincoDivicion = "7/16"
+
+        End If
+
+        If TxbAncho.Text = 171 And CbxAncho.Text = "0" Or TxbAncho.Text = 171 And CbxAncho.Text = "1/16" Or
+               TxbAncho.Text = 171 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 171 And CbxAncho.Text = "3/16" Then
+
+            AumentoCincoDivicion = "7/16"
+
+        ElseIf TxbAncho.Text = 171 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 171 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 171 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 171 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 171 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 171 And CbxAncho.Text = "9/16" Then
+
+            AumentoCincoDivicion = "1/2"
+
+
+        ElseIf TxbAncho.Text = 171 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 171 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 171 And CbxAncho.Text = "11/16" Or TxbAncho.Text = 171 And CbxAncho.Text = "3/4" Or
+               TxbAncho.Text = 171 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 171 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "9/16"
+
+        End If
+
+
+        If TxbAncho.Text = 172 And CbxAncho.Text = "0" Or TxbAncho.Text = 172 And CbxAncho.Text = "1/16" Or
+               TxbAncho.Text = 172 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 172 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 172 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 172 And CbxAncho.Text = "5/16" Then
+
+            AumentoCincoDivicion = "5/8"
+
+        ElseIf TxbAncho.Text = 172 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 172 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 172 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 172 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 172 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 172 And CbxAncho.Text = "11/16" Then
+
+            AumentoCincoDivicion = "11/16"
+
+
+        ElseIf TxbAncho.Text = 172 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 172 And CbxAncho.Text = "13/16" Or
+               TxbAncho.Text = 172 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 172 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "3/4"
+
+        End If
+
+        If TxbAncho.Text = 173 And CbxAncho.Text = "0" Or TxbAncho.Text = 173 And CbxAncho.Text = "1/16" Then
+
+            AumentoCincoDivicion = "3/4"
+
+        ElseIf TxbAncho.Text = 173 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 173 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 173 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 173 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 173 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 173 And CbxAncho.Text = "7/16" Then
+
+            AumentoCincoDivicion = "13/16"
+
+
+        ElseIf TxbAncho.Text = 173 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 173 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 173 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 173 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 173 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 173 And CbxAncho.Text = "13/16" Then
+
+            AumentoCincoDivicion = "7/8"
+
+        ElseIf TxbAncho.Text = 173 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 173 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "15/16"
+
+
+        End If
+
+        If TxbAncho.Text = 174 And CbxAncho.Text = "0" Or TxbAncho.Text = 174 And CbxAncho.Text = "1/16" Or
+           TxbAncho.Text = 174 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 174 And CbxAncho.Text = "3/16" Then
+
+            AumentoCincoDivicion = "5/16"
+
+        ElseIf TxbAncho.Text = 174 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 174 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 174 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 174 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 174 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 174 And CbxAncho.Text = "9/16" Then
+
+            AumentoCincoDivicion = ""
+
+
+        ElseIf TxbAncho.Text = 174 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 174 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 174 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 174 And CbxAncho.Text = "13/16" Or
+               TxbAncho.Text = 174 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 174 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "1/16"
 
 
 
 
+        End If
+
+
+        If TxbAncho.Text = 176 And CbxAncho.Text = "0" Or TxbAncho.Text = 176 And CbxAncho.Text = "1/16" Then
+
+
+            AumentoCincoDivicion = "1/4"
+
+        ElseIf TxbAncho.Text = 176 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 176 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 176 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 176 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 176 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 176 And CbxAncho.Text = "7/16" Then
+
+            AumentoCincoDivicion = "5/16"
+
+        ElseIf TxbAncho.Text = 176 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 176 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 176 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 176 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 176 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 176 And CbxAncho.Text = "13/16" Then
+
+            AumentoCincoDivicion = "3/8"
+
+
+        ElseIf TxbAncho.Text = 176 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 176 And CbxAncho.Text = "15/16" Then
+
+
+            AumentoCincoDivicion = "7/16"
+
+        End If
+
+        If TxbAncho.Text = 177 And CbxAncho.Text = "0" Or TxbAncho.Text = 177 And CbxAncho.Text = "1/16" Or
+               TxbAncho.Text = 177 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 177 And CbxAncho.Text = "3/16" Then
+
+            AumentoCincoDivicion = "7/16"
+
+        ElseIf TxbAncho.Text = 177 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 177 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 177 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 177 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 177 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 177 And CbxAncho.Text = "9/16" Then
+
+            AumentoCincoDivicion = "1/2"
+
+
+        ElseIf TxbAncho.Text = 177 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 177 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 177 And CbxAncho.Text = "11/16" Or TxbAncho.Text = 177 And CbxAncho.Text = "3/4" Or
+               TxbAncho.Text = 177 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 177 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "9/16"
+
+        End If
+
+        If TxbAncho.Text = 178 And CbxAncho.Text = "0" Or TxbAncho.Text = 178 And CbxAncho.Text = "1/16" Or
+               TxbAncho.Text = 178 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 178 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 178 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 178 And CbxAncho.Text = "5/16" Then
+
+            AumentoCincoDivicion = "5/8"
+
+        ElseIf TxbAncho.Text = 178 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 178 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 178 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 178 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 178 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 178 And CbxAncho.Text = "11/16" Then
+
+            AumentoCincoDivicion = "11/16"
+
+
+        ElseIf TxbAncho.Text = 178 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 178 And CbxAncho.Text = "13/16" Or
+               TxbAncho.Text = 178 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 178 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "3/4"
+
+        End If
+
+        If TxbAncho.Text = 179 And CbxAncho.Text = "0" Or TxbAncho.Text = 179 And CbxAncho.Text = "1/16" Then
+
+            AumentoCincoDivicion = "3/4"
+
+        ElseIf TxbAncho.Text = 179 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 179 And CbxAncho.Text = "3/16" Or
+               TxbAncho.Text = 179 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 179 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 179 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 179 And CbxAncho.Text = "7/16" Then
+
+            AumentoCincoDivicion = "13/16"
+
+
+        ElseIf TxbAncho.Text = 179 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 179 And CbxAncho.Text = "9/16" Or
+               TxbAncho.Text = 179 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 179 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 179 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 179 And CbxAncho.Text = "13/16" Then
+
+            AumentoCincoDivicion = "7/8"
+
+        ElseIf TxbAncho.Text = 179 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 179 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "15/16"
+
+
+        End If
+
+        If TxbAncho.Text = 180 And CbxAncho.Text = "0" Or TxbAncho.Text = 180 And CbxAncho.Text = "1/16" Or
+           TxbAncho.Text = 180 And CbxAncho.Text = "1/8" Or TxbAncho.Text = 180 And CbxAncho.Text = "3/16" Then
+
+            AumentoCincoDivicion = "5/16"
+
+        ElseIf TxbAncho.Text = 180 And CbxAncho.Text = "1/4" Or TxbAncho.Text = 180 And CbxAncho.Text = "5/16" Or
+               TxbAncho.Text = 180 And CbxAncho.Text = "3/8" Or TxbAncho.Text = 180 And CbxAncho.Text = "7/16" Or
+               TxbAncho.Text = 180 And CbxAncho.Text = "1/2" Or TxbAncho.Text = 180 And CbxAncho.Text = "9/16" Then
+
+            AumentoCincoDivicion = ""
+
+
+        ElseIf TxbAncho.Text = 180 And CbxAncho.Text = "5/8" Or TxbAncho.Text = 180 And CbxAncho.Text = "11/16" Or
+               TxbAncho.Text = 180 And CbxAncho.Text = "3/4" Or TxbAncho.Text = 180 And CbxAncho.Text = "13/16" Or
+               TxbAncho.Text = 180 And CbxAncho.Text = "7/8" Or TxbAncho.Text = 180 And CbxAncho.Text = "15/16" Then
+
+            AumentoCincoDivicion = "1/16"
 
 
 
 
-
-
-
-
-
-
-
+        End If
 
 
         'ALTO DEL CUADRO
